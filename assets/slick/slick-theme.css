@@ -90,17 +90,17 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: '\2B9C';
     font-size: 80px;
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: '\2B9E';
 }
 
 .slick-next
 {
-    right: 30px;
+    right: 13px;
 }
 [dir='rtl'] .slick-next
 {
@@ -109,12 +109,12 @@
 }
 .slick-next:before
 {
-    content: '→';
+    content: '\2B9E';
     font-size: 80px;
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: '\2B9C';
     font-size: 80px;
 
 }
