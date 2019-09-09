@@ -22,7 +22,7 @@
     font-size: 0;
     line-height: 0;
 
-    z-index: 123123;
+    z-index: 1;
     position: absolute;
     top: 50%;
 
@@ -80,7 +80,6 @@
 
 .slick-prev
 {
-    left: 30px;
     font-size: 80px;
 }
 [dir='rtl'] .slick-prev
