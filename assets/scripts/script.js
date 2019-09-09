@@ -19,7 +19,10 @@ $('.menu-btn').on('click', function(e) {
     $('.sub-list1').removeClass('-open-modal-menu-punkt');
     $('.modal-menu').removeClass('-overflow-scroll');
 });
-
+$('.cont').on('click', function(e) {
+    $(this).toggleClass('menu-btn_active');
+    document.getElementsByClassName('modal-menu')[0].classList.toggle('-open-modal-menu');
+});
 
 
 
