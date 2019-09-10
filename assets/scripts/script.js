@@ -106,9 +106,9 @@ function emptyarrow() {
         document.getElementsByClassName('arrowTopDiv')[0].innerHTML ='';
     }
 }
-$('.arrowTopDiv').on('click', function() {
+/*$('.arrowTopDiv').on('click', function() {
     document.documentElement.scrollTop = 0;
-});
+});*/
 
 
 $('.next').on('click', function() {
