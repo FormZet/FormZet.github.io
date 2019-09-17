@@ -98,10 +98,12 @@
 {
     content: '\1F892';
 }
-
+.slick-prev{
+    left: -85px;
+}
 .slick-next
 {
-    right: 13px;
+    right: -75px;
 }
 [dir='rtl'] .slick-next
 {
