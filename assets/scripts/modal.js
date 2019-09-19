@@ -70,8 +70,12 @@ document.addEventListener('DOMContentLoaded', function() {
 }); // end ready
 
 $('.sendButton').on('click', function() {
-    $('.modalContent').html(''),
-        $('.sendButton').html('Ваш вопрос<br> успешно отправлен!')
-        $('.sendButton').addClass('-done');
-        $('.modalContent').append('<img class="checked" src="./assets/images/checked.svg">');
+        if (
+            document.getElementById('0001').value !== "" && document.getElementById('0002').value !== "" && document.getElementById('0003').value !== "" && document.getElementById("0004").checked === true
+        ) {
+            $('.modalContent').html(''),
+            $('.sendButton').html('Ваш вопрос<br> успешно отправлен!')
+            $('.sendButton').addClass('-done');
+            $('.modalContent').append('<img class="checked" src="./assets/images/checked.svg">');
+        }
 });
