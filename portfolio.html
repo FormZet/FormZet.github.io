@@ -202,27 +202,28 @@
                 </div>
             </div>
         </div>
-        <div class="modal" data-modal="1">
-            <div class="modalContent">
-                <!--   Svg иконка для закрытия окна  -->
-                <img src="./assets/images/cancel.svg" class="modal__cross js-modal-close">
-                <p class="modal__name">Ваше имя<span>*</span></p>
-                <input style="width: 90%;" type="text">
-                <p class="modal__ink">Название организации</p>
-                <input style="width: 90%" type="text">
-                <p class="modal__ink">Ваша почта<span>*</span></p>
-                <input style="width: 90%" type="tex">
-                <p class="modal__tel">Контактный номер телефона</p>
-                <input style="width: 90%" type="tel" name="tel"
-                       pattern="2[0-9]{3}-[0-9]{3}">
-                <p class="text">Ваш вопрос<span>*</span></p>
-
-                <input style="padding-bottom: 35px; width: 90%;" type="text">
-                <p style="color: red; font-size: 12px;">*-поля обязательные для заполнения</p>
-                <p style="color:grey; opacity: 0.9;"><input type="checkbox" name="option1" value="a1" checked>- согласен на обработку моих персональных данных</p>
+        <form>
+            <div class="modal" data-modal="1">
+                <div class="modalContent">
+                    <!--   Svg иконка для закрытия окна  -->
+                    <img src="./assets/images/cancel.svg" class="modal__cross js-modal-close">
+                    <p class="modal__name">Ваше имя<span>*</span></p>
+                    <input id="0001" style="width: 90%;" type="text" required>
+                    <p class="modal__ink">Название организации</p>
+                    <input style="width: 90%" type="text">
+                    <p class="modal__ink" >Ваша почта<span>*</span></p>
+                    <input style="width: 90%" id="0002" type="text" required>
+                    <p class="modal__tel">Контактный номер телефона</p>
+                    <input style="width: 90%" type="tel" name="tel"
+                           pattern="2[0-9]{3}-[0-9]{3}">
+                    <p class="text">Ваш вопрос<span>*</span></p>
+                    <input style="padding-bottom: 35px; width: 90%;" id="0003" required type="text">
+                    <p style="color: red; font-size: 12px;">*-поля обязательные для заполнения</p>
+                    <p style="color:grey; opacity: 0.9;"><input id="0004" required type="checkbox" name="option1" value="a1" checked>- согласен на обработку моих персональных данных</p>
+                </div>
+                <button type="submit" style="margin-top:15px;" class="sendButton">ОТПРАВИТЬ</button>
             </div>
-            <button style="margin-top:15px;" class="sendButton">ОТПРАВИТЬ</button>
-        </div>
+        </form>
         <div class="overlay js-overlay-modal"></div>
         <div class="head-container">
             <img class="head-container__dotts m-head-container__dotts " src="./assets/images/dotts.svg" alt="">
@@ -232,7 +233,7 @@
             <img class="head-container__dotts d-head-container__dotts mobile-only" src="" alt="">
         </div>
         <div class="container">
-        <div id="present" class="presentation" style="margin-bottom: 105px; position: relative">
+        <div id="present" class="presentation" style="margin-bottom: 55px; position: relative">
             <h2 style="display: none;" class="h2-desktop h2Pres">ПРЕЗЕНТАЦИИ</h2>
             <img src="./assets/images/port2.jpg" class="PresentationImg" style="width: 100%">
             <a href="./assets/images/materials.rar" style="cursor: pointer;" download ><img src="./assets/images/arr.jpg" class="arrowdownload"></a>
