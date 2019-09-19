@@ -75,7 +75,7 @@
                     <a href="./possibilities.html">Преимущества</a>
                 </div>
             </li>
-            <li class="link3"><a class="active-link" style="cursor: default" href="#">ПРИМЕНЕНИЕ</a>
+            <li class="link3"><a class="active-link" style="cursor: default">ПРИМЕНЕНИЕ</a>
                 <div class="sub-link sub-link2">
                     <a href="./usage-prom-and-building.html">Промышленность и строительство</a>
                     <a href="./usage-safety.html">Общественная безопасность <br> и аналитика</a>
@@ -159,28 +159,28 @@
         <div onclick="num =6; particleClick()" class="particle"></div>
     </div>-->
 </div>
-
+<form>
     <div class="modal" data-modal="1">
         <div class="modalContent">
             <!--   Svg иконка для закрытия окна  -->
             <img src="./assets/images/cancel.svg" class="modal__cross js-modal-close">
             <p class="modal__name">Ваше имя<span>*</span></p>
-            <input style="width: 90%;" type="text">
+            <input id="0001" style="width: 90%;" type="text" required>
             <p class="modal__ink">Название организации</p>
             <input style="width: 90%" type="text">
-            <p class="modal__ink">Ваша почта<span>*</span></p>
-            <input style="width: 90%" type="tex">
+            <p class="modal__ink" >Ваша почта<span>*</span></p>
+            <input style="width: 90%" id="0002" type="text" required>
             <p class="modal__tel">Контактный номер телефона</p>
             <input style="width: 90%" type="tel" name="tel"
                    pattern="2[0-9]{3}-[0-9]{3}">
             <p class="text">Ваш вопрос<span>*</span></p>
-            <input style="padding-bottom: 35px; width: 90%;" type="text">
+            <input style="padding-bottom: 35px; width: 90%;" id="0003" required type="text">
             <p style="color: red; font-size: 12px;">*-поля обязательные для заполнения</p>
-            <p style="color:grey; opacity: 0.9;"><input type="checkbox" name="option1" value="a1" checked>- согласен на обработку моих персональных данных</p>
+            <p style="color:grey; opacity: 0.9;"><input id="0004" required type="checkbox" name="option1" value="a1" checked>- согласен на обработку моих персональных данных</p>
         </div>
-        <button style="margin-top:15px;" class="sendButton">ОТПРАВИТЬ</button>
+        <button type="submit" style="margin-top:15px;" class="sendButton">ОТПРАВИТЬ</button>
     </div>
-
+</form>
 
 <div id="secAbout" class="section-about" id="section-about">
     <h2 style="display: none;" class="h2-desktop h2About">ОПИСАНИЕ</h2>
@@ -454,7 +454,7 @@
         <div class="left-part">
             <div class="video">
                 <video poster="./assets/images/cars.jpg" width="100%" controls="controls">
-                    <source src="./assets/images/videoplayback.mp4">
+                    <source src="./assets/images/heydude.mp4">
                 </video>
             </div>
             <img src="./assets/images/arrow-down.png" alt="" class="arrow-down">
