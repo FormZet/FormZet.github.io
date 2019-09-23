@@ -24,8 +24,8 @@
                     <li><a href="./about-company.html">О КОМПАНИИ</a></li>
                     <li class="first-sub-list-opener"><a>ВОЗМОЖНОСТИ</a></li>
                     <ul class="sub-list sub-list1">
-                        <li><a href="possibilities.html">Технологии</a></li>
-                        <li><a href="possibilities.html">Преимущества</a></li>
+                        <a href="./possibilities.html#technologies">Технологии</a>
+                        <a href="./possibilities.html#features">Преимущества</a>
                     </ul>
                     <li class="second-sub-list-opener"><a>ПРИМЕНЕНИЕ</a></li>
                     <ul class="sub-list sub-list2">
@@ -40,7 +40,7 @@
                         <li><a href="./usage-retail.html">Ритейл</a></li>
                     </ul>
                     <li><a href="development.html">РАЗРАБОТКА</a></li>
-                    <li><a href="portfolio.html">ПОРТФОЛИО</a></li>
+                    <li><a class="usage-now" href="portfolio.html">ПОРТФОЛИО</a></li>
                     <li><a class="cont" href="#contacts">КОНТАКТЫ</a></li>
                 </ul>
             </div>
@@ -65,8 +65,8 @@
                 <li><a class="active-link" href="./about-company.html">О КОМПАНИИ</a></li>
                 <li class="link2"><a class="active-link " href="./possibilities.html">ВОЗМОЖНОСТИ</a>
                     <div class="sub-link sub-link1">
-                        <a href="./possibilities.html">Технологии</a>
-                        <a href="./possibilities.html">Преимущества</a>
+                        <a href="./possibilities.html#technologies">Технологии</a>
+                        <a href="./possibilities.html#features">Преимущества</a>
                     </div>
                 </li>
                 <li class="link3"><a class="active-link" style="cursor: default">ПРИМЕНЕНИЕ</a>
@@ -112,12 +112,12 @@
         </div>
     </div>
     <div class="section-portfolio-features" style="position: relative;">
-        <div class="head-container" style="margin-bottom: 100px;">
-            <img class="head-container__dotts m-head-container__dotts " src="./assets/images/dotts.svg" alt="">
-            <img class="head-container__dotts d-head-container__dotts mobile-only" src="" alt="">
+        <div style="margin: 100px 0 75px;" class="head-container">
+            <img class="head-container__dotts m-head-container__dotts mobile-only" src="./assets/images/dotts.svg" alt="">
+            <img class="head-container__dotts d-head-container__dotts " src="./assets/images/Точки.svg" alt="">
             <h2 class="mobile-only">ВИДЕОРОЛИКИ</h2>
-            <img class="head-container__dotts m-head-container__dotts " src="./assets/images/dotts.svg" alt="">
-            <img class="head-container__dotts d-head-container__dotts mobile-only" src="" alt="">
+            <img class="head-container__dotts m-head-container__dotts mobile-only " src="./assets/images/dotts.svg" alt="">
+            <img class="head-container__dotts d-head-container__dotts " src="./assets/images/Точки.svg" alt="">
         </div>
         <h2 style="display: none;" class="h2-desktop h2Vid">ВИДЕОРОЛИКИ</h2>
         <div id="videos" class="container videoflex">
@@ -125,7 +125,7 @@
 
             <div id="video_pop" onclick="onPopClick()"></div>
             <div class="vidos">
-            <div class="videoBlank"><p>ОПРЕДЕЛЕНИЕ ЧЕЛОВЕК</p></div>
+            <div class="videoBlank"><p>ОПРЕДЕЛЕНИЕ ЧЕЛОВЕКА</p></div>
             <video  poster="./assets/images/dman.jpg"
                    onclick="onVideoClick1();">
 
@@ -134,7 +134,7 @@
 
                 <div id="video_pop" onclick="onPopClick()"></div>
             <div class="vidos">
-                <div class="videoBlank"><p>ИДЕНТИФИКАЯ ЧЕЛОВЕКА</p></div>
+                <div class="videoBlank"><p>ИДЕНТИФИКАЦИЯ ЧЕЛОВЕКА</p></div>
                 <video  poster="./assets/images/dman2.jpg"
                        onclick="onVideoClick2();">
 
@@ -145,7 +145,7 @@
 
                 <div id="video_pop" onclick="onPopClick()"></div>
                 <div class="vidos">
-                    <div class="videoBlank"><p>ИДЕНТИФИКАЯ НА ПРОХОДНОЙ</p></div>
+                    <div class="videoBlank"><p>ИДЕНТИФИКАЦИЯ НА ПРОХОДНОЙ</p></div>
                     <video  poster="./assets/images/dcor.jpg"
                            onclick="onVideoClick3();">
 
